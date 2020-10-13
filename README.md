@@ -1,52 +1,39 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title></title>
-<link rel="stylesheet" type="text/css" href="dcss/sol.css"
-	      />
-		
-	</head>
-	<body background="imagenes/fondo.jpg">
+<head>
+	<title>Examen Melany</title>
 
-		<p>este es el sitio web de Melany Guerra</p>
-		<hr></hr>
-		<a href="index.html" class="blacklink">Inicio</a> &nbsp;
-		<a href="index2.html" class="greenlink">Empresa</a>&nbsp;
-		<a href="index3.html" class="blacklink">Producto</a> &nbsp;
-		<a href="index4.html" class="greenlink">Contactarnos</a>
+<link rel="stylesheet" type="text/css" href="dcss/sol.css">
+	<script>
+		function compruebeclave(){
+			clave1 = document.f1.clave1.value
+			clave2 = document.f1.clave2.value
+			if (clave1== "melany" && clave2== "guerra"){
+				alert("Los datos son correctos...\n Welcome");
+				var href= "pagina.html";
+				window.location=href;
+			}
+			else{
+				alert("Los datos son erroneos...\n intente de nuevo.");
+				var href = "examen.html";
+			};
+		}
+	</script>
+</head>
 
-		<hr></hr>
+<body background="imagen/tabla.jpg">
 
-		<center><h1><i>MUESTRA HISTORIA</i></h1></center>
-		<p><center>
-			 
-        
-		 Por la necesidad de los lecheros de  la región norte de Antioquia legalizaran su proceso de venta y tratamiento adecuado para la distribución de la leche, nace esta corporación lácteos la vaquita el 20 de octubre de 2003 se hace la primera junta de lecheros donde se toman decisiones que fijan la misión la visión y la razón de esta empresa que es creada del pueblo y para el pueblo, pues los beneficios son para una comunidad soñadora que espera la conformación solida de este proyecto empresarial que cambiaría la manera en la que se observa el campo y en que se distribuyen los productos.</center></p>
+<h1><b><tt><center><span id="mainPoint1">INGRESE CONTRASEÑA Y SU REPETICIÓN</span></center></tt></b></h1><br>
+<hr>
+<p>para poder ingresar a nuestra página ingrese la contraseña dos veces para verificar si son iguales</p>
+<br>
 
-  <p><center> El 15 de septiembre del año 2004 se hace un nuevo comité que lanza ideas innovadoras que partirían la historia de la empresa en dos antes y después de los derivados lácteos, pues se decide  desde el momento no solo pasteurizar la leche  si no también hacer queso, yogur, Arequipe, y mantequilla.</center></p>
-
-   <p><center>pero Espere que hayamos creado una gran experiencia en el campo empresarial. Somos una empresa 100% Guatemala está comprometida con Marketing de los medicamentos
-El éxito de esta primera fase ha sido corto pero productivo, nos ha dado impulso para seguir ofreciendo crecimiento consolidando otros servicios en el comercio a nivel Centro América somos de las pocas empresas que ofrecen calidad en cada uno de sus productos brindando confianza en su higienización.
- Contamos con un equipo excelente de profesionales con verdadera vacación de servir al cliente. Esto unido a la calidad de nuestros productos y servicios, una política de precios competitivos, amplios conocimientos del mercado haciendo uso de la tecnología y con una esmerada selección de nuestras alianzas de negocio que son factores fundamentales de nuestro liderazgo en el mercado.
-
-  Hoy en día es una empresa pionera en lácteos que renueva sus metas y visiones para cumplir los sueños de un pueblo soñador.
-
-		</center> </p>
-<img src="imagenes/vaquita.gif" border="0" width="300" height="300">
-
-<center><h1><i>Lácteos 100% guatemaltecos </i></h1></center>
-De La Vaquita Express es una tienda virtual que cuenta con producto producido únicamente en Guatemala. Se dedican a la venta de lácteos artesanales con sabores únicos y diferente. Estos son algunos de los productos que puedes pedir a domicilio:<br>
-
-Queso fresco entero en bandeja Q 25.00<br>
-Requeson Q 12.00<br>
-Queso de capas con loroco Q 28.00<br>
-Crema 100% pura Q 14.00<br>
-Queso duro Q 11.00<br>
-Yogurt natural sin azúcar Q 22.00<br>
-Queso de pita Q 19.00<br>
-Queso de capas con chile Q 25.00<br>
-Mantequilla lavada Q 18.00<br>
-Mantequilla de costal Q 18.00<br>
-Qué orgullo estas empresas que como De la Vaquita Express ofrece lácteos a domicilio en la Ciudad de Guatemala. Ideal para degustar algo guatemalteco sin salir de tu hogar. ¡Qué lo disfrutes!</p>
-<footer><h2 class="final">&copy; Melany Yamileth Guerra Ovando| Villa nueva-Guatemala C. A 2,020</h2></footer>
-	</body>
+<form action="" name="f1">
+	contraseña:<br> <input type="password" name="clave1" size="20">
+	<br>
+	repite contraseña:<br> <input type="password" name="clave2" size="20">
+	<br>
+	<input type="button" value="verificar" onclick="compruebeclave()">
+</form>
+</body>
 </html>
