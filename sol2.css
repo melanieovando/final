@@ -1,0 +1,29 @@
+# examen
+
+*{
+    background-color: lightblue;
+    box-sizing: border-box; 
+  }
+  a{
+  	color: #000000;
+  	text-decoration: none;
+
+  }
+  a:hover{
+  	color: pink;
+  	background: #839
+  }
+  .greenlink:hover{
+  	color: brown;
+  	background:lightblue;
+  }
+  .blacklink:hover{
+  	color: violet;
+  	background:black;
+}
+.final{
+  	text-align:left;
+  	font-size: 24px;
+  	margin: 20px 0 0 0;
+  	color: 0965;
+  }
