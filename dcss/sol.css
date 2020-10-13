@@ -1,0 +1,38 @@
+*{
+
+}
+/* all h1 elements*/
+h1{
+
+
+color:royalblue;
+text-align: center;
+}
+
+form{
+	padding: 60px;
+	max-width: 200px;
+	color:green;
+}
+
+h1{
+	color:royalblue;
+}
+p{
+	font:message-box;
+	color: darkgreen;
+}
+
+form input{
+margin-bottom: 15px;
+font-family: sans-serif;
+width: 100%;
+padding: 10%
+
+
+-webkit-box-sizing:border-box;
+border: black;
+color: black;
+background-color:lightgreen;
+font-size: vertical;
+}
