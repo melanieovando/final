@@ -1,0 +1,61 @@
+*{
+
+}
+/* all h1 elements*/
+h1{
+
+
+color:brown;
+text-align: center;
+}
+
+form{
+	padding: 60px;
+	max-width: 200px;
+	background-color: #43989e7d;
+	margin: 0
+
+	font-family:cursive;
+	color:green;
+}
+
+h2{
+	color:royalblue;
+}
+p{
+	font:message-box;
+	color: darkgreen;
+	text-align: center;
+}
+
+form input{
+margin-bottom: 15px;
+font-family: sans-serif;
+width: 100%;
+padding: 10%
+text-align: center;
+
+
+-webkit-box-sizing:border-box;
+border: black;
+color: black;
+background-color:lightgreen;
+font-size: horizontal;
+}
+  }
+  a{
+  	color: #000000;
+  	text-decoration: none;
+
+  }
+  a:hover{
+  	color: pink;
+  	background: #839
+  }
+  .greenlink:hover{
+  	color: darkgreen;
+  	background:lightgreen;
+  }
+  .blacklink:hover{
+  	color: black;
+  	background: cyan;

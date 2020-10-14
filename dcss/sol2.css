@@ -13,13 +13,14 @@
   	color: pink;
   	background: #839
   }
+ }
   .greenlink:hover{
-  	color: brown;
-  	background:lightblue;
+    color: darkgreen;
+    background:lightgreen;
   }
   .blacklink:hover{
-  	color: violet;
-  	background:black;
+    color: black;
+    background: cyan;
 }
 .final{
   	text-align:left;
